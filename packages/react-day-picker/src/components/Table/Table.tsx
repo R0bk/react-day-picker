@@ -7,6 +7,8 @@ import { useDayPicker } from 'contexts/DayPicker';
 
 import { getMonthWeeks } from './utils/getMonthWeeks';
 
+export getMonthWeeks;
+
 /** The props for the [[Table]] component. */
 export interface TableProps {
   /** The ID of the label of the table (the same given to the Caption). */

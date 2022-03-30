@@ -43,11 +43,12 @@ export function Month(props: MonthProps) {
   }
 
   const CaptionComponent = components?.Caption ?? Caption;
+  const TableComponent = components?.Table ?? Table;
 
   return (
     <div key={props.displayIndex} className={className.join(' ')} style={style}>
       <CaptionComponent id={captionId} displayMonth={props.displayMonth} />
-      <Table aria-labelledby={captionId} displayMonth={props.displayMonth} />
+      <TableComponent aria-labelledby={captionId} displayMonth={props.displayMonth} />
     </div>
   );
 }

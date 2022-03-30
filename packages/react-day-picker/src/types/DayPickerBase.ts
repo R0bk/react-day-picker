@@ -6,6 +6,7 @@ import { DayProps } from 'components/Day';
 import { DayContentProps } from 'components/DayContent';
 import { DropdownProps } from 'components/Dropdown';
 import { RowProps } from 'components/Row';
+import { TableProps } from 'components/Table';
 import { WeekNumberProps } from 'components/WeekNumber';
 
 import {
@@ -255,6 +256,8 @@ export interface CustomComponents {
   IconRight?: (props: StyledComponent) => JSX.Element | null;
   /** The arrow left icon (used for the Navigation buttons). */
   IconLeft?: (props: StyledComponent) => JSX.Element | null;
+  /** The component for the table. */
+  Table?: (props: TableProps) => JSX.Element | null;
   /** The component for the table rows. */
   Row?: (props: RowProps) => JSX.Element | null;
   /** The component for the week number in the table rows. */

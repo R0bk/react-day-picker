@@ -13,6 +13,7 @@ export * from 'components/IconRight';
 export * from 'components/IconLeft';
 export * from 'components/Row';
 export * from 'components/WeekNumber';
+export * from 'components/Table';
 
 export * from 'hooks/useInput';
 export * from 'hooks/useDayRender';
